@@ -1,4 +1,6 @@
-header {
+
+
+  header {
     background-color: $color-2;
   }
   
@@ -78,3 +80,19 @@ header {
       }
     }
   }
+  .cd-primary-nav {
+    ul {
+        margin: 1rem;
+    }
+
+    li {
+    padding: 1rem;
+    margin-left: 1rem;
+    }
+
+    h3 {
+        font-size: larger;
+        padding: 1rem;
+        font-weight: bold;
+    }
+}
