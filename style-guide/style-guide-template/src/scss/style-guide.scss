@@ -3,34 +3,12 @@
 @import 'partials/layout'; // responsive grid and media queries
 
 
-// color palette - these colors will be the color swatches of the Colors section
-$background-color: #A0C36F;
-$header-color:#6A5D4E;
-$main-text-color:BLACK;
-$color1: #156527;
-$color2: #3C8038;
-$color3: #5D9D44;
-$color4: #80B257;
-$color5: #B1A381;
-$color6: #A89876;
-$color7: #9E8D6B;
-$color8: #84725C;
-
-/*Just some ideas we can change later - Natália */ 
-
-
-
+//Colors
 @import 'partials/colors';
 
-// fonts
+//Typography
 //imported with typography partial
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
-/* font-family: 'Source Sans Pro', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
-/* font-family: 'Merienda', cursive; */
-
+@import 'partials/typography';
 
 /* -------------------------------- 
 
@@ -284,4 +262,7 @@ select {
   @include appearance(none);
 }
 
+.small-image {
+  width: 400px;
+}
 @import 'partials/basic-style';

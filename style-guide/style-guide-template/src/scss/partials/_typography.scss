@@ -1,5 +1,14 @@
-$primary-font: 'Merriweather', serif;
-$secondary-font: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+/* font-family: 'Merienda', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+/*font-family: 'Londrina Solid', cursive;*/
+
+$primary-font: 'Source Sans Pro', serif;
+$secondary-font: 'Londrina Solid', cursive;
 
 h1,
 h2 {
@@ -38,18 +47,20 @@ section > h2::before {
   color: darken($color-4, 15%);
 }
 
-p {
+p, h3 {
   font-size: 1.4rem;
   line-height: 1.4;
-  color: lighten($color-2, 25%);
-
-  a {
-    color: $color-1;
-    text-decoration: underline;
-  }
+  color: $color-2;
+  
 
   @include MQ(S) {
     font-size: 1.6rem;
     line-height: 1.6;
   }
+}
+
+a {
+  color: $color-1;
+  text-decoration: underline;
+  font-weight: bold;
 }
