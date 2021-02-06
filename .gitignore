@@ -3,12 +3,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode
 
-###Files to Ignore in Styleguide###
-node_modules
-*.css
-.cache
-build
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/tasks.json
@@ -50,3 +44,8 @@ $RECYCLE.BIN/
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
+###Files to Ignore in Styleguide###
+node_modules
+*.css
+.cache
+build
