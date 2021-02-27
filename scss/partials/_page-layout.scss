@@ -1,7 +1,7 @@
 .summary, .requirements, .preamble, .participation, .explanation, .benefits {
     border: 1px solid black;
 }
-aside, .requirements, .participation, .explanation, .benefits {
+.requirements, .participation, .explanation, .benefits {
     padding: 0.5rem 1.5rem;
     margin: 1rem;
 }
@@ -30,7 +30,7 @@ aside {
     bottom: 0;
     right: 0;
     width: 100%;margin: 0 auto;
-    padding: 1em;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -83,7 +83,6 @@ footer {
     aside {
         grid-column: 6/8;
         grid-row: 2/8;
-        border: 1px solid black;
     }
 
     footer {
