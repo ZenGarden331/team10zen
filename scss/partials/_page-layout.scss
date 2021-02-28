@@ -1,3 +1,7 @@
+body:before {
+    content: url(mountains.svg);
+}
+
 .summary, .requirements, .preamble, .participation, .explanation, .benefits {
     border: 1px solid black;
 }
