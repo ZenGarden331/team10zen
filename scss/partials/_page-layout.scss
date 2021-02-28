@@ -2,6 +2,10 @@ body:before {
     content: url(mountains.svg);
 }
 
+body:after {
+    content: url(trees.svg);
+}
+
 .summary, .requirements, .preamble, .participation, .explanation, .benefits {
     border: 1px solid black;
 }
