@@ -3,7 +3,7 @@ body:before {
 }
 
 body:after {
-    content: url(trees.svg);
+    content: url(trees-small.svg);
 }
 
 .summary, .requirements, .preamble, .participation, .explanation, .benefits {
@@ -50,6 +50,10 @@ footer {
 
 
 @media screen and (min-width: 900px) {
+
+    body:after {
+        content: url(trees-large.svg);
+    }
 
     header {
         border: black 1px solid;
