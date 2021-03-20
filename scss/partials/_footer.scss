@@ -1,11 +1,24 @@
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
 footer a {
     padding: 1rem;
     margin: 1rem;
     background-color: $dark-green;
-    height: 1rem;
-    width: 1rem;
+    height: 1.25rem;
+    width: 1.25rem;
     border-radius: 50%;
     color: $white-color;
     text-align: center;
     font-size: .75rem;
+    text-decoration: none;   
 }
+
+
+footer a:hover {
+    transform: scale(1.2);
+    
+}
+
