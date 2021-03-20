@@ -1,34 +1,4 @@
-//colors
-$color-1: #6A5D4E;
-$color-2: #156527;
-$color-3: #A0C36F;
-$color-4: #3C8038;
-$color-5: #ddd1b5;
-$color-6: #5D9D44;
-$color-7: #80B257;
-$color-8: #A89876;
-$color-9: #9E8D6B;
-$color-10: #84725C;
-$black-color: black;
-$white-color: white;
 
-//tipography
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
-
-$main-name:  'Merienda', cursive;
-$primary-font: 'Source Sans Pro', serif;
-$secondary-font: 'Londrina Solid', cursive;
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body, p {
-    font-family: $primary-font;
-}
 
 h3{
     font-family: $main-name;
@@ -37,7 +7,7 @@ h3{
 .preamble {
     padding: 0.5rem 1.5rem;
     margin: 1rem;
-    border: 1px solid black;
+    border: 1px solid $black-color;
     grid-column: 1/6;
     grid-row: 2/8;
 
@@ -53,15 +23,14 @@ h3{
 .preamble, .explanation, .participation, .benefits, .requirements {
     box-shadow: 2px 6px 12px rgba(0, 0, 10, 0.50);
     margin: 30px;
-    border: 2px solid $color-10;
+    border: 2px solid $brown;
     border-radius: 10px;
-    background-color: $color-5;
+    background-color: $light-brown;
     
 }
 .design-selection, .design-archives, .zen-resources{
     box-shadow: 2px 6px 12px rgba(0, 0, 10, 0.50);
-    margin: 30px;
-    border: 2px solid $color-2;
+    border: 2px solid $dark-green;
     border-radius: 10px;
-    background-color: $color-7;
+    background-color: $light-green;
 }

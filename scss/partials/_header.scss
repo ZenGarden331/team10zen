@@ -1,26 +1,9 @@
-//colors
-$header1:#6A5D4E;
-$header2:#A0C36F;
-$header3:#156527;
-$black-color: black;
-$white-color: white;
-
-//tipography
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
-
-$main-name:  'Merienda', cursive;
-$primary-font: 'Source Sans Pro', serif;
-$secondary-font: 'Londrina Solid', cursive;
-
-
 .intro{
-    background-color: $header2;
+    background-color: $light-green;
     justify-content: space-between;
     align-items: center;
     padding: 0;
-    color: $header1;
+    color: $brown;
     font-family: $main-name;
 }
 
@@ -29,15 +12,15 @@ h1{
     margin-top: 120px;
     margin-left: -150px;
     font-family: $primary-font;
-    color: $header3;
+    color: $dark-green;
 }
 
 
 .summary{
-    background-color: $header1;
+    background-color: $brown;
     align-items: center;
     padding: 0;
-    color: $header2;
+    color: $light-green;
     font-family: $secondary-font;
 }
 

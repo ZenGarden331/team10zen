@@ -1,7 +1,36 @@
+//colors
+$brown: #6A5D4E;
+$light-brown: #ddd1b5;
+$dark-green: #156527;
+$light-green: #cef7c4;
+$green-opaque: rgba(21, 101, 39, 0.7);
+$black-color: black;
+$white-color: white;
+$white-opaque: rgba(255, 255, 255, 0.7);
+
+//typography
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+$main-name:  'Merienda', cursive;
+$primary-font: 'Source Sans Pro', serif;
+$secondary-font: 'Londrina Solid', cursive;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, p {
+    font-family: $primary-font;
+}
 @import 'partials/utilities'; 
 @import 'partials/page-layout';
 @import 'partials/header';
 @import 'partials/nav'; 
 @import 'partials/main';
 @import 'partials/footer';  
+
+
 
