@@ -20,18 +20,25 @@ $secondary-font: 'Londrina Solid', cursive;
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body, p {
     font-family: $primary-font;
     padding: 1rem;
 }
+
+body {
+    font-size: 14px;
+}
+
+
 @import 'partials/utilities'; 
-@import 'partials/page-layout';
 @import 'partials/header';
 @import 'partials/nav'; 
 @import 'partials/main';
 @import 'partials/footer';  
+@import 'partials/large';
 
 
 
