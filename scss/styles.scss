@@ -3,19 +3,27 @@ $brown: #6A5D4E;
 $light-brown: #ddd1b5;
 $dark-green: #156527;
 $light-green: #def5be;
-$green-opaque: rgba(21, 101, 39, 0.7);
+$green-transparent: rgba(21, 101, 39, 0.8);
 $black-color: black;
 $white-color: white;
-$white-opaque: rgba(255, 255, 255, 0.7);
+$white-transparent: rgba(255, 255, 255, 0.7);
 
 //typography
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 
+//font variables
 $main-name:  'Merienda', cursive;
 $primary-font: 'Source Sans Pro', serif;
 $secondary-font: 'Londrina Solid', cursive;
+
+//view sizes
+$display-medium: 42rem;
+$display-large: 70rem;
+
+// box shadows
+$shadow: .3rem .6rem .9rem -.4rem rgba(0, 0, 10, 0.50);
 
 * {
     margin: 0;
@@ -23,13 +31,14 @@ $secondary-font: 'Londrina Solid', cursive;
     box-sizing: border-box;
 }
 
-body, p {
-    font-family: $primary-font;
+p {
     padding: 1rem;
+    font-family: $primary-font;
 }
 
 body {
-    font-size: 14px;
+    font-size: 16px;
+    font-family: $primary-font;
 }
 
 
