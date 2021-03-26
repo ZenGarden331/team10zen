@@ -5,6 +5,7 @@
     padding: 1rem;
     color: $brown;
     font-family: $main-name;
+    box-shadow: $shadow;
     border-radius: 10px;
     margin: 1rem;
 }
@@ -29,10 +30,12 @@ h2 {
     padding: 0;
     color: $light-green;
     font-family: $secondary-font;
+    box-shadow: $shadow;
+    border-radius: 10px;
 }
 
 div .preamble {
     display: flex;
     flex-direction: column;
-    color: $black-color;
+    color: $dark-green;
 }

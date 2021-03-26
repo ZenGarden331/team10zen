@@ -40,25 +40,23 @@ aside {
     }
 }
 
-h3{
+h2, h3 {
     font-family: $main-name;
     padding: 1rem;
 }
 
 .preamble {
-    padding: 0.5rem 1.5rem;
+    box-shadow: $shadow;
+    border-radius: 10px;
+    background-color: $light-brown;
     margin: 1rem;
-    grid-column: 1/6;
-    grid-row: 2/8;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 
     .benefits, .requirements {
         grid-column: 1/3;
     }
 }
 
-.preamble, .explanation, .participation, .benefits, .requirements {
+.explanation, .participation, .benefits, .requirements {
     box-shadow: $shadow;
     border-radius: 10px;
     background-color: $light-brown;
