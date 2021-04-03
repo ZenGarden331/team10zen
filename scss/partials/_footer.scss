@@ -16,6 +16,13 @@ footer {
         text-align: center;
         font-size: .75rem;
         text-decoration: none;
+        z-index: 3;
+        transition: transform .2s;
+        
+
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     &:after {
@@ -24,4 +31,8 @@ footer {
         bottom: 18rem;
         width: 100vw;
     }
+
+    animation: appear 3s 1 ease-in-out;
 }
+
+

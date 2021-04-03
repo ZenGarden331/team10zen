@@ -59,15 +59,28 @@ ul {
     box-shadow: $shadow;
 }
 
-//style nav links
-.wrapper div ul li a {
 
-    &:active {
+
+.wrapper {
+    transition: background-color .3s;
+    transition: color .3s;
+
+    a:active {
         background-color: $light-green;
         color: $dark-green;
         border: solid 2px $dark-green;
         &:nth-child(1) {
             padding-left: .3rem;
         }
+
     }
+
+    a:hover {
+        background-color: $dark-green;
+        color: $light-green;
+            &:nth-child(1) {
+            padding-left: .3rem;
+        }
+    }
+
 }

@@ -42,12 +42,41 @@ body {
 }
 
 
-@import 'partials/utilities'; 
+
+//animations
+@keyframes appear {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes slideup {
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-top: 100px;
+    }
+  }
+
+  @keyframes slideupbuttons {
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-top: 0;
+    }
+  }
+
 @import 'partials/header';
 @import 'partials/nav'; 
 @import 'partials/main';
 @import 'partials/footer';  
 @import 'partials/large';
-
-
-

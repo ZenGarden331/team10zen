@@ -12,28 +12,6 @@
         a {
             margin: 0.75rem;
 
-            &:hover {
-                transform: scale(1.2);
-            }
-        }
-    }
-
-    //link hover states
-    .summary p a:hover {
-        background-color: $light-green;
-        color: $dark-green;
-    }
-
-    .participation p a:hover, .requirements p a:hover {
-        background-color: $brown;
-        color: $light-brown;
-    }
-
-    .wrapper a:hover {
-        background-color: $dark-green;
-        color: $light-green;
-        &:nth-child(1) {
-            padding-left: .3rem;
         }
     }
    
@@ -60,6 +38,7 @@
         background-color: $white-transparent;
         padding: 5rem;
         border-radius: 50px;
+        animation: slideup 3s 1 ease-in-out;
     }
 
     .page-wrapper {
@@ -100,6 +79,7 @@
         left: 5.5rem;
         border-radius: 30px;
         z-index: 2;
+        animation: slideupbuttons 3s 1 ease-in-out;
 
         &:after {
             content: none;
@@ -109,4 +89,7 @@
             margin: 1rem 2.5rem 2rem;
         }   
     }
+    
 }
+
+
